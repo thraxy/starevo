@@ -1,0 +1,26 @@
+# ignore file extensions
+*.o
+*.obj
+*.exe
+*.dll
+
+# ignore compiler and ide files
+.vscode/
+
+# executable files
+*.exe
+*.out
+
+# compiled lib files
+*.lib
+*.dll
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# user-specific
+config.ini
+
+# ignore binary file created by cmake
+myprogram
